@@ -1,0 +1,92 @@
+@import url("https://raw.githubusercontent.com/Dedonych/Shikimori-Dark-Theme/master/shikimori_dark.css");
+@import url("https://raw.githubusercontent.com/kaurkaur/Shikimori/master/CSS/AchivmentStatusbarAndSort.css");
+:root {
+  --news: none;
+  --my-clr: teal;
+  --dropdown:var(--my-clr);
+  --link-primary:var(--my-clr);
+}
+.p-profiles .profile-head .c-info .c-additionals {
+  display: none;
+}
+.p-profiles-show .profile-content .lifetime {
+  display: none;
+}
+.p-profiles-show .profile-content .activity {
+  display: none;
+}
+.p-profiles-show .profile-content .cc-2a > .c-column:last-child {
+  display: none;
+}
+.p-profiles-show .profile-content .cc-2 > .c-column:last-child > .block {
+  display: none;
+}
+.p-profiles .profile-head .c-history {
+  display: none;
+}
+.p-profiles-show .profile-content .cc-2.block {
+  display: none;
+}
+.p-profiles .profile-head .c-brief header h1 {
+  color: darkgoldenrod;
+}
+.p-profiles .profile-head .c-brief .avatar .profile-actions {
+  display: none;
+}
+.p-profiles .profile-head .c-mobile-actions {
+  display: none;
+}
+.p-profiles-show .about .item-edit {
+  display: none;
+}
+.p-profiles-show .about .subheadline {
+  display: none;
+}
+.p-profiles-show .achievements {
+  display: none;
+}
+.l-footer .links {
+  display: none;
+}
+.l-footer .copyright {
+  display: none;
+}
+.p-profiles .profile-head .c-brief header .notice {
+  display: none;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime {
+  margin-bottom: 5px;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga {
+  margin-bottom: 5px;
+}
+@media screen and (max-width: 480px) {
+  .p-user_rates-index .list-lines tr .num {
+    display: table-cell;
+  }
+}
+.l-top_menu-v2 {
+  max-width: 1200px;
+  margin: auto;
+}
+.x1000 .l-top_menu-v2 {
+  max-width: 1000px;
+}
+.b-comments-notifier {
+  top: 0px !important;
+}
+.p-profiles .profile-head .c-brief .avatar {
+  float: none;
+  margin: auto;
+  text-align: center;
+}
+.p-profiles .profile-head .c-brief header {
+  text-align: center;
+}
+.p-profiles header.head .misc {
+  display: block;
+  padding: 5px 0;
+}
+.b-feedback {
+  display: none;
+}
