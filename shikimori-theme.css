@@ -1,9 +1,17 @@
-@import url("https://raw.githubusercontent.com/Dedonych/Shikimori-Dark-Theme/master/shikimori_dark.css");
+@media {
 :root {
   --news: none;
-  --my-clr: teal;
-  --dropdown:var(--my-clr);
-  --link-primary:var(--my-clr);
+  --my-clr: darkgoldenrod;
+}
+body {
+  background: url("https://wallpapers-clan.com/wp-content/uploads/2023/12/endless-blue-starry-sky-wallpaper-scaled.jpg") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+}
+.l-page {
+  background: transparent;
 }
 .p-profiles .profile-head .c-info .c-additionals {
   display: none;
@@ -21,13 +29,13 @@
   display: none;
 }
 .p-profiles .profile-head .c-history {
-  display: none;
+display: none;
 }
 .p-profiles-show .profile-content .cc-2.block {
   display: none;
 }
 .p-profiles .profile-head .c-brief header h1 {
-  color: darkgoldenrod;
+  color: silver;
 }
 .p-profiles .profile-head .c-brief .avatar .profile-actions {
   display: none;
@@ -88,4 +96,37 @@
 }
 .b-feedback {
   display: none;
+}
+.p-dashboards-show .v2 .fc-user-sections .f-sections {
+  display: none;
+}
+.fc-2_3 > .f-column:last-child {
+  display: none;
+}
+.fc-2_3 > .f-column:first-child {
+  width: 100%;
+}
+.p-dashboards-show .v2 .fc-user-sections .f-user {
+  width: 100%;
+  max-width: 100%;
+  margin-right: 0px;
+}
+.subheadline-buttons {
+  display: none;
+}
+.headline.magenta.m15 {
+  display: none;
+}
+.p-dashboards-show .v2 .db-updates {
+  display: none;
+}
+.p-dashboards-show .v2 .news_wall.other-news {
+  display: none;
+}
+.headline.skyblue.m15 {
+  display: none;
+}
+.subheadline.linkheadline {
+  display: none;
+}
 }
