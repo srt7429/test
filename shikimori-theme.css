@@ -1,8 +1,9 @@
+@import url("https://raw.githubusercontent.com/Dedonych/Shikimori-Dark-Theme/master/shikimori_dark.css");
+@media {
 :root {
   --news: none;
   --my-clr: darkgoldenrod;
 }
-
 body {
   background: url("https://wallpapers-clan.com/wp-content/uploads/2023/12/endless-blue-starry-sky-wallpaper-scaled.jpg") !important;
   background-size: cover !important;
@@ -10,82 +11,120 @@ body {
   background-repeat: no-repeat !important;
   background-attachment: fixed !important;
 }
-
 .l-page {
   background: transparent;
 }
-
-.hidden {
+.p-profiles .profile-head .c-info .c-additionals {
   display: none;
 }
-
-.p-profiles .profile-head .c-info .c-additionals,
-.p-profiles-show .profile-content .lifetime,
-.p-profiles-show .profile-content .activity,
-.p-profiles-show .profile-content .cc-2a > .c-column:last-child,
-.p-profiles-show .profile-content .cc-2 > .c-column:last-child > .block,
-.p-profiles .profile-head .c-history,
-.p-profiles-show .profile-content .cc-2.block,
-.p-profiles .profile-head .c-brief .avatar .profile-actions,
-.p-profiles .profile-head .c-mobile-actions,
-.p-profiles-show .about .item-edit,
-.p-profiles-show .about .subheadline,
-.l-footer .links,
-.l-footer .copyright,
-.p-profiles .profile-head .c-brief header .notice,
-.b-feedback,
-.p-dashboards-show .v2 .fc-user-sections .f-sections,
-.fc-2_3 > .f-column:last-child,
-.subheadline-buttons,
-.headline.magenta.m15,
-.p-dashboards-show .v2 .db-updates,
-.p-dashboards-show .v2 .news_wall.other-news,
-.headline.skyblue.m15,
-.subheadline.linkheadline {
+.p-profiles-show .profile-content .lifetime {
   display: none;
 }
-
+.p-profiles-show .profile-content .activity {
+  display: none;
+}
+.p-profiles-show .profile-content .cc-2a > .c-column:last-child {
+  display: none;
+}
+.p-profiles-show .profile-content .cc-2 > .c-column:last-child > .block {
+  display: none;
+}
+.p-profiles .profile-head .c-history {
+display: none;
+}
+.p-profiles-show .profile-content .cc-2.block {
+  display: none;
+}
 .p-profiles .profile-head .c-brief header h1 {
   color: silver;
 }
-
-.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar {
+.p-profiles .profile-head .c-brief .avatar .profile-actions {
+  display: none;
+}
+.p-profiles .profile-head .c-mobile-actions {
+  display: none;
+}
+.p-profiles-show .about .item-edit {
+  display: none;
+}
+.p-profiles-show .about .subheadline {
+  display: none;
+}
+.l-footer .links {
+  display: none;
+}
+.l-footer .copyright {
+  display: none;
+}
+.p-profiles .profile-head .c-brief header .notice {
+  display: none;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime {
   margin-bottom: 5px;
 }
-
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga {
+  margin-bottom: 5px;
+}
 @media screen and (max-width: 480px) {
   .p-user_rates-index .list-lines tr .num {
     display: table-cell;
   }
 }
-
 .l-top_menu-v2 {
   max-width: 1200px;
   margin: auto;
 }
-
 .x1000 .l-top_menu-v2 {
   max-width: 1000px;
 }
-
 .b-comments-notifier {
   top: 0px !important;
 }
-
 .p-profiles .profile-head .c-brief .avatar {
   float: none;
   margin: auto;
   text-align: center;
 }
-
-.p-profiles .profile-head .c-brief header,
-.p-profiles header.head .misc {
+.p-profiles .profile-head .c-brief header {
   text-align: center;
+}
+.p-profiles header.head .misc {
+  display: block;
   padding: 5px 0;
 }
-
+.b-feedback {
+  display: none;
+}
+.p-dashboards-show .v2 .fc-user-sections .f-sections {
+  display: none;
+}
+.fc-2_3 > .f-column:last-child {
+  display: none;
+}
+.fc-2_3 > .f-column:first-child {
+  width: 100%;
+}
 .p-dashboards-show .v2 .fc-user-sections .f-user {
   width: 100%;
   max-width: 100%;
   margin-right: 0px;
+}
+.subheadline-buttons {
+  display: none;
+}
+.headline.magenta.m15 {
+  display: none;
+}
+.p-dashboards-show .v2 .db-updates {
+  display: none;
+}
+.p-dashboards-show .v2 .news_wall.other-news {
+  display: none;
+}
+.headline.skyblue.m15 {
+  display: none;
+}
+.subheadline.linkheadline {
+  display: none;
+}
 }
