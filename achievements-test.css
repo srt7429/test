@@ -1,43 +1,16 @@
-.achievements-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px; /* Расстояние между элементами */
+.p-profiles .achievements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.achievement {
-    background-color: #f0f0f0; /* Цвет фона */
-    border-radius: 15px; /* Скругление углов */
-    padding: 10px; /* Внутренние отступы */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень */
-    display: flex;
-    align-items: center;
-    width: calc(50% - 10px); /* Ширина элемента с учётом расстояния между ними */
+.p-profiles .achievement {
+  width: 48%;
+  margin-bottom: 20px;
 }
 
-.achievement img {
-    border-radius: 50%; /* Скругление изображения */
-    width: 50px; /* Ширина изображения */
-    height: 50px; /* Высота изображения */
-    margin-right: 10px; /* Отступ справа */
-}
-
-.achievement .details {
-    flex: 1;
-}
-
-.achievement .title {
-    font-size: 16px; /* Размер шрифта заголовка */
-    font-weight: bold; /* Жирный шрифт */
-    margin-bottom: 5px; /* Отступ снизу */
-}
-
-.achievement .description {
-    font-size: 14px; /* Размер шрифта описания */
-    color: #666; /* Цвет текста описания */
-}
-
-@media (max-width: 600px) {
-    .achievement {
-        width: calc(50% - 5px); /* Элементы будут занимать половину ширины экрана с меньшим отступом */
-    }
+@media screen and (max-width: 480px) {
+  .p-profiles .achievement {
+    width: 100%;
+  }
 }
