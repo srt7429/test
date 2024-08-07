@@ -22,3 +22,10 @@
 .achievement:hover {
   transform: scale(1.05);
 }
+
+/* Адаптация под мобильный интерфейс */
+@media (max-width: 768px) {
+  .achievement {
+    flex: 1 1 100%; /* Один столбец на мобильных устройствах */
+  }
+}
