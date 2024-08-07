@@ -30,7 +30,7 @@ body {
   display: none;
 }
 .p-profiles .profile-head .c-history {
-display: none;
+  display: none;
 }
 .p-profiles-show .profile-content .cc-2.block {
   display: none;
@@ -127,7 +127,7 @@ display: none;
 .subheadline.linkheadline {
   display: none;
 }
-.spns_special_x1170 {
-  display: none;
+.spns_special_x1170 {  
+  display: none;  
 }
 }
