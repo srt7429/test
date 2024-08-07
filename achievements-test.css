@@ -1,31 +1,37 @@
-/* Основные стили для секции достижений */
-.achievements {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  padding: 20px;
+.achievements-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Расстояние между элементами */
 }
 
-/* Стили для каждого достижения */
 .achievement {
-  background-color: #f0f0f0;
-  border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  flex: 1 1 calc(50% - 40px); /* Два столбца */
-  margin: 10px;
-  padding: 20px;
-  text-align: center;
-  transition: transform 0.3s;
+    background-color: #f0f0f0; /* Цвет фона */
+    border-radius: 15px; /* Скругление углов */
+    padding: 10px; /* Внутренние отступы */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень */
+    display: flex;
+    align-items: center;
+    width: calc(50% - 10px); /* Ширина элемента с учётом расстояния между ними */
 }
 
-.achievement:hover {
-  transform: scale(1.05);
+.achievement img {
+    border-radius: 50%; /* Скругление изображения */
+    width: 50px; /* Ширина изображения */
+    height: 50px; /* Высота изображения */
+    margin-right: 10px; /* Отступ справа */
 }
 
-/* Адаптация под мобильный интерфейс */
-@media (max-width: 768px) {
-  .achievement {
-    flex: 1 1 100%; /* Один столбец на мобильных устройствах */
-  }
+.achievement .details {
+    flex: 1;
+}
+
+.achievement .title {
+    font-size: 16px; /* Размер шрифта заголовка */
+    font-weight: bold; /* Жирный шрифт */
+    margin-bottom: 5px; /* Отступ снизу */
+}
+
+.achievement .description {
+    font-size: 14px; /* Размер шрифта описания */
+    color: #666; /* Цвет текста описания */
 }
